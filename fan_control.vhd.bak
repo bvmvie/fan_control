@@ -1,0 +1,12 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity fan_control is
+	port(
+		fan: out std_logic := '0');
+end entity;
+
+architecture rtl of fan_control is
+begin
+	fan <= '1';
+end architecture;
